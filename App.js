@@ -2,8 +2,8 @@
 
 import React from 'react';
 import { ScrollView, View, StyleSheet } from 'react-native';
-import Messenger from './Messenger';
-import NewsFeed from './NewsFeed';
+import Messenger from './Counter';
+import NewsFeed from './ColorChangerApp';
 import styles from './styles';
 
 const App = () => {
@@ -12,8 +12,8 @@ const App = () => {
       style={styles.container}
       contentContainerStyle={styles.contentContainer}
     >
-      <Messenger />
-      <NewsFeed />
+      <Counter/>
+      <ColorChangerApp/>
     </ScrollView>
   );
 };
